@@ -13,11 +13,15 @@ void main(){
 //   const String appName = "L1";
 //   final int startYear = 2026;
 //   print("$appName started in    $startYear");
-  String? city = null;
-  if (city != null){
-    print(
-      city.toUpperCase(),
-    );
+//   String? city = null;
+//   if (city != null){
+//     print(
+//       city.toUpperCase(),
+//     );
+//   }
+//   print(city?.toUpperCase());
+  List<String> fruits = ["банан","груша","лимон"];
+  for (var fruit in fruits){
+    print(fruit);
   }
-  print(city?.toUpperCase());
 }
