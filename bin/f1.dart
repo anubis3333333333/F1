@@ -1,11 +1,9 @@
 void main(){
-  print(repeat("ха",3));
+  List<String> names = ["м","ф","ы"];
+  List<String> upper = names.map((name)=>name.toUpperCase()).toList();
+  print(upper);
+
+  List<String> longNames = names.where((name) => name.length > 4).toList();
+  print(longNames);
   
-}
-String repeat(String text,[int times = 2]){
-  String result = "";
-  for (int i=0 ; i<times;i++){
-    result += text;
-  }
-  return result;
 }
