@@ -1,5 +1,8 @@
-import 'package:f1/f1.dart' as f1;
-
-void main(List<String> arguments) {
-  print('Hello world: ${f1.calculate()}!');
+void main(){
+  String name = "ANSKJDH";
+  int age = 20;
+  double height = 1.75;
+  bool isStident = true;
+  print("hi , $name : Тебе $age лет.");
+  
 }
